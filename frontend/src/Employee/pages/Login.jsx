@@ -18,9 +18,9 @@ const Login = () => {
   const [isActive, setIsActive] = useState(false);
 
   // State for controlled inputs
-  const [employeeID, setEmployeeID] = useState("");
-  const [password, setPassword] = useState("");
-  const [email, setEmail] = useState("");
+  const [employeeID, setEmployeeID] = useState("cyril");
+  const [password, setPassword] = useState("12345678");
+  const [email, setEmail] = useState("cyril123654789cyril@gmail.com");
 
   const handleRegisterClick = () => {
     setIsActive(true);
@@ -67,7 +67,8 @@ const Login = () => {
     <div className="w-full h-screen justify-center items-center flex">
       <div>
         <h1 className="text-4xl md:text-4xl text-center font-bold mb-6">
-          Mediversal Gurukul
+          {/* Mediversal  */}
+          Gurukul
         </h1>
         <div className="w-full justify-center items-center hidden md:flex">
           <div className={`wrapper ${isActive ? "active" : ""}`}>

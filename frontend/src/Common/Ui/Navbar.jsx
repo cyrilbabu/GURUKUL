@@ -25,7 +25,11 @@ export default function Navbar({ setSideBar }) {
     >
       <div className="px-4 flex items-center">
         <img src="/logo.png" className="w-9 rounded" />
-        <p className="px-4 md:text-3xl text-xl">Mediversal Gurukul</p>
+        <p className="px-4 md:text-3xl text-xl">
+          {/* Mediversal  */}
+          Gurukul
+
+        </p>
       </div>
       <div
         className="px-4 text-4xl hidden md:flex"
